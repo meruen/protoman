@@ -1,8 +1,13 @@
 # frozen_string_literal: true
 
-require_relative "protoman/version"
+require_relative 'protoman/version'
 
 module Protoman
-  class Error < StandardError; end
-  # Your code goes here...
+  def fsm(name, **params)
+    puts 's'
+  end
+
+  def transition(from:, to:, **params)
+    puts 'd'
+  end
 end
